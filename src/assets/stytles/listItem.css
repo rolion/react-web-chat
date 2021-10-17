@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+
+.item .item-img{
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item .item-text{
+
+    flex: 80%;
+    border-bottom: 1px solid black;
+}
+
+.item-img img{
+    height: 50px;
+    width: 50px;
+    object-fit: scale-down;
+}
+
+.item-text {
+    display: flex;
+    flex-direction:column;
+}
+.item-text .name-container{
+    justify-content:space-between;
+    display: flex;
+}
+.item-text p {
+    margin-bottom: 0px;
+}
+

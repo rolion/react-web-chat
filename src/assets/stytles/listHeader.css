@@ -1,0 +1,15 @@
+.list-header-container{
+    display: flex;
+    /*justify-content:space-between;*/
+}
+.list-header-image{
+    flex: 20%;
+}.list-header-icon{
+    flex: 80%;
+ }
+
+.list-header-image img{
+    height: 50px;
+    width: 50px;
+    object-fit: scale-down;
+}

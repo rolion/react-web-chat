@@ -1,0 +1,14 @@
+.chat-container{
+    display: flex;
+    margin-top: 1.5em;
+
+
+}
+.friend-list{
+    flex: 30%;
+    display: flex;
+    flex-direction:column;
+}
+.chat-box{
+    flex: 70%;
+}
