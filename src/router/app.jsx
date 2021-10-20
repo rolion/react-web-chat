@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Login from "../containers/Login";
-import Chat from "../containers/Chat";
+import ChatPage from "../containers/ChatPage";
 import Home from "../containers/Home";
 
 const App = (props) => {
@@ -12,7 +12,7 @@ const App = (props) => {
                     <Login></Login>
                 </Route>
                 <Route path='/chat'>
-                    <Chat></Chat>
+                    <ChatPage></ChatPage>
                 </Route>
                 <Route path='/'>
                     <Home></Home>

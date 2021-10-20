@@ -1,0 +1,28 @@
+.list-item{
+    display: flex;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.item-img{
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+}
+
+.item-img img{
+    height: 50px;
+    width: 50px;
+    object-fit: scale-down;
+}
+
+.item-text{
+    flex: 80%;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+.item-icon{
+    flex: 80%;
+}

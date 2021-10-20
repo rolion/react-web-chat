@@ -5,11 +5,11 @@ import '../assets/stytles/listHeader.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
 const ListHeader = (props) =>{
-    return <div className='list-header-container'>
-        <div className='list-header-image'>
+    return <div className='list-item'>
+        <div className='item-img'>
             <img src={userDefault}/>
         </div>
-        <div className='list-header-icon'>
+        <div className='item-icon icon-position-right'>
             <FontAwesomeIcon icon={faEllipsisV}></FontAwesomeIcon>
         </div>
     </div>

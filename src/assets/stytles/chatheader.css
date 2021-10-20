@@ -1,0 +1,22 @@
+.chat-box .header{
+    display: flex;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.chat-box .header .contact{
+    display: flex;
+}
+.chat-box .header .contact .header-name{
+    display: flex;
+    flex: 80%;
+    align-items: center;
+    margin-left: 1em;
+}
+.chat-box .header .header-icon{
+    flex: 20%;
+}
+.chat-box .header .header-img img{
+    height: 50px;
+    width: 50px;
+    object-fit: scale-down;
+}

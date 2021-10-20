@@ -2,8 +2,9 @@ import React from 'react';
 import userDefault from '../assets/img/user-default.png';
 import '../assets/stytles/listItem.css';
 const ListItem = (props) => {
-    let {img, name, lastMessage, time} = props;
-    return <div className='item'>
+    let {img, name, lastMessage, time, selected} = props;
+    console.log('selected',selected);
+    return <div className={selected?'list-item item-selected ':'list-item'}>
         <div className='item-img'>
             <img src={img?img:userDefault} alt="user profile picture"/>
         </div>
